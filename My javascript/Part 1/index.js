@@ -1,0 +1,10 @@
+console.time('timer');
+console.log("hello world00");
+console.log("javascript with html");
+console.log([1,2,3,4,5,6]);
+console.table({atharv:'this',marks:50});
+console.warn('this is warning');
+console.assert(334 < 190,'Age > this is not possible');
+console.error('this is an error');
+console.timeEnd('timer');
+console.clear();

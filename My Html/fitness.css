@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "rajdhani", sans-serif;
+scroll-snap-type: mandatory; 
+}
+
+body{
+  background-color: #F8F8FF;
+  
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  width: 50%;
+  padding: 25px;
+}
+
+.title:hover{
+    color: blueviolet;
+}
+.nav-links {
+  width: 50%;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.membership {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 9rem;
+}
+.membership div:hover {
+  color: #778899;
+  background-color: #f0f8ff;
+  transition: 0.6s;
+}
+
+.plan1 p {
+  padding: 40px;
+}
+.plan2 p {
+  padding: 40px;
+}
+.plan3 p {
+  padding: 40px;
+}
+
+.plan1 {
+  padding: 60px 20px 60px 20px;
+  border: black solid 1px;
+  border-radius: 22px;
+  background-color: #fffafa;
+  box-shadow: 0 10px 20px rgba(150, 144, 144, 1), 0 6px 6px rgba(0, 0, 0, 1.23);
+}
+
+.plan2 {
+  padding: 60px 20px 60px 20px;
+  border: black solid 1px;
+  border-radius: 22px;
+  background-color: #fffafa;
+  box-shadow: 0 10px 20px rgba(150, 144, 144, 1), 0 6px 6px rgba(0, 0, 0, 1.23);
+}
+
+.plan3 {
+  padding: 60px 20px 60px 20px;
+  border: black solid 1px;
+  border-radius: 22px;
+  background-color: #fffafa;
+  box-shadow: 0 10px 20px rgba(150, 144, 144, 1), 0 6px 6px rgba(0, 0, 0, 1.23);
+}
+
+.btn {
+  width: 5em;
+  height: 2em;
+  border-radius: 20px;
+}
+
+.stock-img {
+  width: 100px;
+  height: 80px;
+}
+
+.coursetitle {
+  text-align: center;
+  margin-top: 9rem;
+  font-weight: bolder;
+  color: plum;
+}
+
+.courses {
+  position: relative;
+  right: 3rem;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.courses h2 {
+  padding: 30px;
+}
+
+hr {
+  margin-top: 8rem;
+}
+
+.courses div a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    color: plum;
+}
+
+.contactus{
+  background-color: #E6E6FA;
+  width :100%;
+text-align: center;
+margin-top: 5rem;
+padding: 2rem;
+}
+
+.contactus h3 a{
+  text-decoration: none;
+  color: plum;
+  padding: 5rem;
+}
+
+
+.contactus p{
+  padding-top: 4rem;
+  font-weight: bolder;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
