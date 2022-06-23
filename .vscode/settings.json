@@ -2,9 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "random": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "stdio.h": "c"
     },
-    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.errorSquiggles": "Enabled",
     "editor.letterSpacing": 1,
     "editor.fontFamily": "monospace",
     "editor.lineHeight": 30,

@@ -1,0 +1,6 @@
+<style>
+  a:hover {
+    color: blue;
+  }
+</style>
+<a hover="https://freecatphotoapp.com/">CatPhotoApp</a>

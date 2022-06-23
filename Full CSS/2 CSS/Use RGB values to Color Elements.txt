@@ -1,0 +1,9 @@
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
+
+
+for black (0,0,0)
+rgb limit upto 255
