@@ -24,6 +24,7 @@ int main()
     char x[20];
     do
     {
+        cout<<"select your option";
         cout << "\n 1) Create Student Database ";
         cout << "\n 2) Display Student Records ";
         cout << "\n 3) Bubble Sort ";
